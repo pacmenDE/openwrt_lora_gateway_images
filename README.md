@@ -18,9 +18,9 @@ openwrt 18.06 with running lora Gateway and packet forwarder based on https://gi
     uci commit
     reboot
 
-6) configure wifi as wifi client as descriped here :https://openwrt.org/docs/guide-user/network/wifi/connect_client_wifi
+6.) setup wifi as wifi client as described here :https://openwrt.org/docs/guide-user/network/wifi/connect_client_wifi
 
-7.) setup your gateway id
+7.) setup your gateway id and SX1301 reset pin
 
     uci set lora-global.gateway_conf.gateway_ID='YOUR GATEWAYID' TTN
     uci set lora-global.SX1301_conf.reset_pin='YOUR RESET PIN'
