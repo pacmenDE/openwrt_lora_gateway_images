@@ -14,11 +14,9 @@ openwrt 18.06 with running lora Gateway and packet forwarder based on https://gi
 
 5.) set wireless on with
 
-  uci set wireless.radio0.disabled=0
-  
-  uci commit
-  
-  reboot
+    uci set wireless.radio0.disabled=0
+    uci commit
+    reboot
 
 6) configure wifi as wifi client as descriped here :https://openwrt.org/docs/guide-user/network/wifi/connect_client_wifi
 
