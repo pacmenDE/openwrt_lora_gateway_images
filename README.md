@@ -26,6 +26,7 @@ openwrt 18.06 with running lora Gateway and packet forwarder based on https://gi
 
     uci set lora-global.gateway_conf.gateway_ID='YOUR GATEWAYID' TTN
     uci set lora-global.SX1301_conf.reset_pin='YOUR RESET PIN'
+    uci commit
 
 8.) reboot your device.
 
